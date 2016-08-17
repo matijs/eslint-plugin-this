@@ -1,14 +1,8 @@
 'use strict';
 
-module.exports = function ( context ) {
-  return {
-    'ThisExpression': function ( node ) {
-      context.report( node, 'Do not use this' );
-    }
-  };
+module.exports.rules = {
+  'no-this': require( './rules/no-this.js' )
 };
-
-module.exports.schema = [];
 
 module.exports.configs = {
   'recommended': {

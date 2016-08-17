@@ -1,5 +1,5 @@
 'use strict';
-const rule = require( '../index' );
+const rule = require( '../rules/no-this' );
 const RuleTester = require( 'eslint' ).RuleTester;
 const ruleTester = new RuleTester();
 
