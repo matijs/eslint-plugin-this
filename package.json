@@ -1,0 +1,23 @@
+{
+  "name": "eslint-plugin-this",
+  "version": "0.0.0",
+  "description": "ESLint plugin to disallow the use of 'this'",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Matijs Brinkhuis",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./tests/**/*.js"
+  },
+  "devDependencies": {
+    "eslint": "~2.6.0",
+    "mocha": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
