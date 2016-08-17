@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-this",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ESLint plugin to disallow the use of 'this'",
   "keywords": [
     "eslint",
@@ -12,6 +12,10 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha ./tests/**/*.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matijs/eslint-plugin-this.git"
+  },
   "devDependencies": {
     "eslint": "~2.6.0",
     "mocha": "^3.0.2"
@@ -19,5 +23,9 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matijs/eslint-plugin-this/issues"
+  },
+  "homepage": "https://github.com/matijs/eslint-plugin-this#readme"
 }
