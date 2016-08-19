@@ -4,3 +4,11 @@ node_js:
   - node
 notifications:
   email: false
+deploy:
+  provider: npm
+  email: matijs@gmail.com
+  api_key:
+    secure: qCGebRdMZvXiUYlYbEiieVm6dB+wQqpqsQZwi7n7XiykUjecHi8HJ4Xbrw/PTXcfh0pOYOblsdS9ofAnn+/EfOfh0ANHdlZJDD1sffwDPy/PaT+PdOb3z2iOh6AjcPLGqa2Ej3BpEWT8sDI6xMNgz5Nu2YAUoMvFtVp0hu3MtIMIYADBD/mQWIg4QQdlVG9RmZsQ67BTVPYecjZE/DOl/99Gx/cICOVTfH2u5GRnUahVpxvxqWST8DVK7RvOSNe2O740HyQ5UF1kYupPvXHNGIvDXjjf9YNS9BtQQgrwlESEaurXXDKkQOZaNgRzmvyuihtWPRobOGZvq5c6K8pb29EvyViFoz0jdbSliq8Q7pSr5Ta47ozGgHYoaduh1yFpAe3tV5Ts9lXCKjPL3ZHLFDH9+mEBRgSFSi8SD4uMx2bnNJx7Muj33KyXoMRHv+ZneNvwCfImuYfT56zp1aBH+j1GPjuQceH0cstJ8Ygm5/uiX7wP3z0JyOlKGk0vazzGUL7qWR9OzviPcingG+8gWOWp9wvg5skR3wTkwI4qSzKl86Lwph24qriDLolnApLcyRy1gqnlD65/4Xy8Und4oUqgWYGNdPE9x5flBnYOVyPSVW+0JIVegfzDPdr1eLua3cMFDObEKSTkUBhlAHVREye3lycxR5AqVNW8sH6QiTE=
+  on:
+    tags: true
+    repo: matijs/eslint-plugin-this
