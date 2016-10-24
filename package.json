@@ -11,7 +11,7 @@
   "main": "index.js",
   "scripts": {
     "preversion": "npm test",
-    "test": "mocha ./tests/**/*.js"
+    "test": "mocha ./test/**/*.js"
   },
   "repository": {
     "type": "git",
