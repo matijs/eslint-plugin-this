@@ -1,7 +1,16 @@
 'use strict';
 
-module.exports = context => ({
-  ThisExpression: function ( node ) {
-    context.report( node, 'Do not use this' );
+const create = context => {
+  return {
+    ThisExpression: node => {
+      context.report({
+        node,
+        message: 'Do not use this.'
+      });
+    }
   }
-});
+}
+
+module.exports = {
+  create
+}
