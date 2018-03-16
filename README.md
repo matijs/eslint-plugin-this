@@ -1,5 +1,7 @@
 # eslint-plugin-this
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/matijs/eslint-plugin-this.svg)](https://greenkeeper.io/)
+
 
 [![Build Status](https://travis-ci.org/matijs/eslint-plugin-this.svg?branch=master)](https://travis-ci.org/matijs/eslint-plugin-this)
 [![Version on npm](https://img.shields.io/npm/v/eslint-plugin-this.svg)](https://js.com/package/eslint-plugin-this)
