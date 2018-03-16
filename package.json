@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-this",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "ESLint plugin to disallow the use of 'this'",
   "keywords": [
     "eslint",
