@@ -1,16 +1,19 @@
 {
   "name": "eslint-plugin-this",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "ESLint plugin to disallow the use of 'this'",
   "keywords": [
     "eslint",
     "eslintplugin",
-    "eslint-plugin"
+    "eslint-plugin",
+    "this",
+    "no-this"
   ],
   "author": "Matijs Brinkhuis",
   "main": "index.js",
   "scripts": {
     "preversion": "npm test",
+    "lint": "eslint **/*.js",
     "test": "mocha ./test/**/*.js"
   },
   "repository": {
@@ -18,8 +21,8 @@
     "url": "git+https://github.com/matijs/eslint-plugin-this.git"
   },
   "devDependencies": {
-    "eslint": "~3.19.0",
-    "mocha": "^3.0.2"
+    "eslint": "^4.18.2",
+    "mocha": "^5.0.4"
   },
   "peerDependencies": {
     "eslint": ">=0.8.0"
