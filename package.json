@@ -21,8 +21,8 @@
     "url": "git+https://github.com/matijs/eslint-plugin-this.git"
   },
   "devDependencies": {
-    "eslint": "^6.1.0",
-    "mocha": "^6.2.0"
+    "eslint": "latest",
+    "mocha": "latest"
   },
   "peerDependencies": {
     "eslint": ">=0.8.0"
